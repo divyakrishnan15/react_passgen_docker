@@ -1,0 +1,12 @@
+version: "1"
+services:
+  nginx-react:
+    image: reactpasswordapp:latest
+    container_name: reactpasswordgenerator
+    build: 
+        context: . 
+        dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment: 
+        NODE_ENV: production

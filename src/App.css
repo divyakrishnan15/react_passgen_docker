@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: #209cff;
+  height:100vh;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passgen-app{
+  background-color: #282c34;
+  height:600px;
+  width:450px;
+  color:#fff;
+  margin:50px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  margin-top:20px;
+}
+
+textarea{
+  height:80px;
+  width:300px;
+}
+
+.copy-btn{
+  margin:5px;
+}
+
+.slidecontainer{
+  
+}
+
+
+.settings{
+  display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+input,label{
+  display: flex;
+  flex-direction: column;
+}
+
+.pwd-gen-btn{
+  height:40px;
+  width:200px;
+  background-image: linear-gradient(50deg, rgb(38, 204, 245),rgb(36, 226, 36));
+  border-radius: 10px;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
